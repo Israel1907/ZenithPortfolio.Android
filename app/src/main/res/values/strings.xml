@@ -12,6 +12,7 @@
     <string name="no_results_title">Sin resultados</string>
     <string name="no_results_subtitle">No se encontraron criptomonedas para \'%1$s\'</string>
     <string name="retry">Reintentar</string>
+    <string name="go_back">Volver</string>
     <string name="clear_search">Limpiar búsqueda</string>
     <string name="error_loading">Error al cargar</string>
     <string name="error_refreshing">Error al refrescar</string>

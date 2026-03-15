@@ -18,7 +18,7 @@ interface CoinGeckoApi {
     @GET("coins/{id}")
     suspend fun getCoinById(
         @Path("id") id: String
-    ): CryptoDto
+    ): CoinDetailDto
 
     @GET("coins/{id}/market_chart")
     suspend fun getMarketChart(

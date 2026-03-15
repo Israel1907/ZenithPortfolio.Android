@@ -71,7 +71,8 @@ fun CryptoDetailScreen(
     if (currentState.error != null && currentState.crypto == null) {
         ErrorStateView(
             message = currentState.error,
-            onRetry = { viewModel.onIntent(DetailIntent.LoadDetail) }
+            onRetry = { viewModel.onIntent(DetailIntent.LoadDetail) },
+            onBack = onBack
         )
         return
     }
